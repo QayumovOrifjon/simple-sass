@@ -1,0 +1,14 @@
+@mixin dFlex($justifyContent,$alignItems){
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: $alignItems;
+}
+.header{
+    .header__list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    
+}
